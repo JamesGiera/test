@@ -37,6 +37,32 @@
 
 
 
+    .wyposazenie{margin-top: 100px;text-align: center;height: 500px;font-size: 20px;margin-bottom: 50px;padding-bottom: 50px; }
+    .wyposazenie .druga-rozmazana-kreska{width: 200px;height: 2px;background-color: #D8CFAD;margin-left: auto;margin-right: auto;transform: translateY(-20px);}
+    .wyposazenie h2{text-align: center; font-family: 'Roboto', sans-serif; color: black;}
+    .wyposazenie .ballin {width: 18%; height: 200px; opacity: 94%; display: inline-block; padding-bottom: 30px;text-align: left;vertical-align:text-top;}
+   
+    ul{margin-bottom: 20px;}
+    #nic{color: white;}
+   
+   
+     @media screen and (max-width: 990px) {
+       .wyposazenie .ballin{width:55% ;}
+      
+       .prawa{transform: translateY(-70px);}
+     }
+     @media screen and (max-width: 582px) {
+        
+     }
+     @media screen and (max-width: 640px) {
+       .wyposazenie .ballin{width:90% ;}
+       
+     }
+     @media screen and (max-width: 300px) {
+        .prawa{transform: translateY(5px);}
+       
+     }
+   
 
 
 
@@ -53,7 +79,13 @@
 
 
 
-.przyjemniaczki h2{text-align: center;font-family: 'Roboto', sans-serif; margin-top: 100px;}
+
+
+
+
+
+
+.przyjemniaczki h2{text-align: center;font-family: 'Roboto', sans-serif; margin-top: 0px;}
         .przyjemniaczki h3{font-family: 'Roboto', sans-serif;}
         .przyjemniaczki .druga-rozmazana-kreska{width: 200px;height: 2px;background-color: #D8CFAD;margin-left: auto;margin-right: auto;transform: translateY(-20px);}
         .przyjemniaczki .atrakcje-movin{text-align: center;}
@@ -121,19 +153,21 @@
      @media screen and (max-width: 860px) {
          
          .footer .fo{padding-left: 20%;padding-right: 20%;}
+         .footer .tna3 .options{transform: translateX(-10px);}
      }
      
      @media screen and (max-width: 353px) {
          
          .footer .tna3 .options .mailjoj a{font-size: 15px;padding-right:40px;}
          .footer .tna3 .options .mailjoj a svg{width: 0%;height: 0%;}
+         .footer .tna3 .options{transform: translateX(0px);}
 
      }
     </style>
 </head>
 <body>
     <div class="spanie">
-        <h2>ROOMS</h2>
+        <h2>Rooms</h2>
          <div class="druga-rozmazana-kreska"></div>
             <div class="pokoje">
  
@@ -197,13 +231,38 @@
 
             </div>
 
+    </div> 
 
 
+    <div class="wyposazenie">
 
+        <h2>Equipment</h2>
+        <div class="druga-rozmazana-kreska"></div>
 
- 
- 
-</div> 
+            <div class="lewa ballin">
+
+            <ul>
+                <li>telewizory LED 32″”</li>
+                <li>bezpłatny dostęp do internetu</li>
+                <li>wygodne łóżka z pościelą</li>
+                <li>czajnik oraz akcesoria kuchenne</li>
+                <li>nowoczesne łazienki</li>
+                <li id="nic"></li>
+            </ul>
+            </div>
+            <div class="prawa ballin">
+            <ul>
+                <li>2 komfortowe pokoje 3-osobowe</li>
+                <li>1 komfortowy pokój 4-osobowy z balkonem</li>
+                <li>1 komfortowy pokój 2-osobowy z balkonem</li>
+                <li>aneks kuchenny z wyposażeniem</li>
+                <li>przestrzenny salon z TV LED 40″ oraz stołem</li>
+                <li>kominek</li>
+            </ul>  
+            </div>
+            </div>
+          
+    </div>
 
 
 
@@ -211,8 +270,8 @@
 
 
     <div class="przyjemniaczki">
-        <h2>ATRACTIONS</h2>
-        <div class="druga-rozmazana-kreska"></div>
+        <h2>Atractions in the area</h2>
+        <div class="druga-rozmazana-kreska" style="width: 250px;"></div>
         <div class="atrakcje-movin">
        
        
