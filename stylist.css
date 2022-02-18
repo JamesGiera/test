@@ -169,7 +169,7 @@ body{margin: 0; overflow-x: hidden;scroll-behavior: smooth;}
         .spanie .pokoje{text-align: center;margin-top: 20px;}
         .spanie .pokoj{width: 30%;opacity: 94%; display: inline-block;border-radius: 5px; padding-bottom: 30px;text-align: left;overflow: hidden;box-shadow: 0 0 3px #35332d;margin-left: 5px;margin-right: 5px;}
         .spanie .pokoj  img{height: 100%;width: 100%;box-shadow: 0 0 1px #35332d}
-        .spanie .rozmazana-kreska1{width: 45px;height: 3px;background-color: black;padding-left: 10px;}
+        .spanie .rozmazana-kreska1{width: 45px;height: 3px;background-color: black;padding-left: 10px;margin-left:10px;}
         .spanie .pokoj:hover{opacity: 100%;box-shadow: 0 0 6px #35332d}
         .spanie .btn-showmore{background-color: #D8CFAD; color: white;text-align: center;padding-top: 5px;padding-bottom: 5px;width: 80%;margin-left: 10px;}
     
