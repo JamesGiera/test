@@ -1,5 +1,44 @@
-body{margin: 0; overflow-x: hidden;}
-        .guwniak .menuphoto{height: 100%;width: 100%;transform: translateY();box-shadow: 0 0 20px #35332d;margin-bottom: 30px;}
+body{margin: 0; overflow-x: hidden;scroll-behavior: smooth;}
+
+.reveal {
+    
+    opacity: 0;
+  }
+.reveal.active {
+    opacity: 1;
+  }
+  .active.fade-bottom {
+    animation: fade-bottom 0.5s ease-in;
+  }
+  .active.fade-left {
+    animation: fade-left 1s ease-in;
+  }
+  .active.fade-right {
+    animation: fade-right 1s ease-in;
+  }
+  @keyframes fade-bottom {
+    0% {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+        .guwniak .menuphoto{height: 60%;max-height: 800px; width: 100%;box-shadow: 0 0 20px #35332d;margin-bottom: 30px;}
         .guwniak .icons{width: 30px;height: 50px;display: inline-block;position: relative;padding-right: 20px;padding-left: 20px;color: white;cursor: pointer;}
         .guwniak .icons:hover{color:#D8CFAD;}
         .guwniak .webo{position: absolute;top: 0;right: 0; padding-right: 20px;display: flex;align-items: center;justify-content: end;float: right;transform: translateX(-2px);}
