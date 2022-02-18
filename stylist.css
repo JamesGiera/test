@@ -53,9 +53,11 @@ body{margin: 0; overflow-x: hidden;scroll-behavior: smooth;}
         .guwniak .dropdown-content a {color: black;padding: 12px 16px;text-decoration: none;display: block;}
  
         .guwniak .dropdown a:hover {background-color: #ddd;}
-        @media screen and (max-width: 380px) {
-           .guwniak svg{transform: translateY(6000px);}
-           .guwniak .dropbtn{padding: 12px 12px;margin-right: 0;transform: translateX(9px);}
+        @media screen and (max-width: 500px) {
+           .guwniak .icons{width: 26px;;height: 36px;}
+           .guwniak .dropbtn{height: 36px;padding-left:6px;padding-right: 6px;
+        padding-top: 5px;padding-bottom: 5px;font-size: 14px;}
+        .guwniak .webo{transform: translateX(16px);}
             
          }
 
