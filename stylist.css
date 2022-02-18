@@ -1,5 +1,5 @@
 body{margin: 0; overflow-x: hidden;}
-        .guwniak .menuphoto{height: 100%;width: 100%;transform: translateY(-500px);box-shadow: 0 0 20px #35332d;}
+        .guwniak .menuphoto{height: 100%;width: 100%;transform: translateY();box-shadow: 0 0 20px #35332d;margin-bottom: 30px;}
         .guwniak .icons{width: 30px;height: 50px;display: inline-block;position: relative;padding-right: 20px;padding-left: 20px;color: white;cursor: pointer;}
         .guwniak .icons:hover{color:#D8CFAD;}
         .guwniak .webo{position: absolute;top: 0;right: 0; padding-right: 20px;display: flex;align-items: center;justify-content: end;float: right;transform: translateX(-2px);}
@@ -33,15 +33,15 @@ body{margin: 0; overflow-x: hidden;}
 
         .modal {display: none; position: fixed; z-index: 1; padding-top: 50px; left: 0;top: 0;width: 100%; height: 100%; overflow: auto; background-color: rgb(0,0,0); background-color: rgba(0,0,0,0.4); }
 
-        .modal-content {background-color: honeydew;margin: auto;padding: 20px;border: 1px solid #888;width: 43%;}
-        .close {color: #aaaaaa;float: right;font-size: 28px;font-weight: bold;position: relative; top: -12px;left: 1px;}
+        .modal-content {background-color: honeydew;margin: auto;border: 1px solid #888;width: 90%;height: 60%;padding: 5px;}
+        .close {color: #aaaaaa;float: right;font-size: 28px;font-weight: bold;position: absolute; transform: translateY(90px); transform: translateX(-40px);}
 
 
         .close:hover,
         .close:focus {color: #000;text-decoration: none;cursor: pointer;}
 
 
-        iframe{width: 100%;height: 400px;}
+        iframe{width: 100%;height: 100%;}
 
 
 
@@ -56,7 +56,7 @@ body{margin: 0; overflow-x: hidden;}
 
         .under-the-under .btn-showmore{transform: translateY(-30px);margin-top: 80px; background-color: #D8CFAD; color: white;text-align: center;padding-top: 5px;padding-bottom: 5px;width: 60%;font-family: 'Montserrat', sans-serif;}
         .under-the-under .btn-showmore:hover{box-shadow: 0 0 20px #D8CFAD;}
-        .text-under-the-sos{text-align: center;width: 60%;margin-left: auto;margin-right: auto;font-family: 'Roboto', sans-serif; margin-bottom: 50px;}
+        .text-under-the-sos{text-align: center;width: 60%;margin-left: auto;margin-right: auto;font-family: 'Roboto', sans-serif;}
         .under-the-under{width: 1000px;height:60%;overflow: hidden;max-height: 368px; max-width: 1600px;margin-top: 100px;font-family: 'Quicksand', sans-serif;box-shadow: 0 0 4px #D8CFAD;margin-left: auto;margin-right: auto;}
         .under-the-under p{font-weight: 900;color: gray;font-size: large;}
         .under-the-under .fuwg{display: inline-block;width: 49%; vertical-align: text-top;}
@@ -122,7 +122,7 @@ body{margin: 0; overflow-x: hidden;}
 
 
         .spanie h2{text-align: center; font-family: 'Roboto', sans-serif; color: black;margin-top: 100px;}
-        .spanie h3{font-family: 'Montserrat', sans-serif;color: black;padding-left: 10px;}
+        .spanie h3{font-family: 'Quicksand', sans-serif;color: black;padding-left: 10px;}
         .spanie h4{padding-left: 20px;color: grey;padding-left: 10px;}
         h5{font-family: 'Montserrat', sans-serif;}
         .spanie p{font-family: 'Montserrat', sans-serif;color: grey;padding-left: 10px;}
@@ -132,7 +132,7 @@ body{margin: 0; overflow-x: hidden;}
         .spanie .pokoj  img{height: 100%;width: 100%;box-shadow: 0 0 1px #35332d}
         .spanie .rozmazana-kreska1{width: 45px;height: 3px;background-color: black;padding-left: 10px;}
         .spanie .pokoj:hover{opacity: 100%;box-shadow: 0 0 6px #35332d}
-        .spanie .btn-showmore{background-color: #D8CFAD; color: white;text-align: center;padding-top: 5px;padding-bottom: 5px;width: 80%;padding-left: 10px;}
+        .spanie .btn-showmore{background-color: #D8CFAD; color: white;text-align: center;padding-top: 5px;padding-bottom: 5px;width: 80%;margin-left: 10px;}
     
     .spanie {text-decoration: none;color: white;font-size: larger;font-family: 'Montserrat', sans-serif;}
     .spanie .btn-showmore{margin-top: 30px;margin-bottom: 20px;}
