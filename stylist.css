@@ -105,8 +105,8 @@ body{margin: 0; overflow-x: hidden;scroll-behavior: smooth;}
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgba(0, 0, 0, 0.808);
-    background-color: rgba(0, 0, 0, 0.74);
+     background-color: rgba(0, 0, 0, 0.89);
+    background-color: rgba(0, 0, 0, 0.89);
     overflow-y: hidden;
     transition: 0.5s;
   }
