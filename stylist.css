@@ -99,16 +99,17 @@ body{margin: 0; overflow-x: hidden;scroll-behavior: smooth;}
   
   
   .overlay {
+    font-family: 'Quicksand', sans-serif;
     height: 0%;
     width: 100%;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-     background-color: rgba(0, 0, 0, 0.89);
+    background-color: rgba(0, 0, 0, 0.89);
     background-color: rgba(0, 0, 0, 0.89);
     overflow-y: hidden;
-    transition: 0.5s;
+    transition: 0.8s;
   }
   
   .overlay-content {
@@ -138,6 +139,32 @@ body{margin: 0; overflow-x: hidden;scroll-behavior: smooth;}
     right: 45px;
     font-size: 60px;
   }
+  @media screen and (max-width: 500px) {
+    .overlay-content {
+      
+      top: 12%;
+    }
+    
+}
+@media screen and (max-width: 700px) {
+  .overlay-content {
+    
+    top: 16%;
+  }
+  
+}
+@media screen and (max-width: 800px) {
+  .overlay-content {
+    
+    top: 18%;
+  }
+  .overlay .closebtn {
+      
+    top: 10px;
+    right: 25px;
+    font-size: 60px;
+  }
+}
   
   
   
