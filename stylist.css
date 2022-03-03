@@ -161,8 +161,12 @@ h3 a{font-weight: 100;}
 @media screen and (max-width: 860px) {      
 .footer .fo{padding-left: 20%;padding-right: 20%;}
 .footer .tna3 .options{transform: translateX(-10px);}
+.footer .tna3 .options .no a:hover{font-weight: 200;}
+.footer .dna3 .options a h3:hover{font-weight: 200;} 
 }
 @media screen and (max-width: 353px) {
+.footer .tna3 .options .no a:hover{font-weight: 200;}
+.footer .dna3 .options a h3:hover{font-weight: 200;} 
 .footer .tna3 .options .mailjoj a{font-size: 15px;padding-right:40px;}
 .footer .tna3 .options .mailjoj a svg{width: 0%;height: 0%;}
 .footer .tna3 .options{transform: translateX(0px);}}
